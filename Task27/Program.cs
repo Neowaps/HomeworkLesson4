@@ -1,4 +1,4 @@
-﻿int ConvertToNumber (string textMessage)
+﻿int ConvertToNumber(string textMessage)
 {
     System.Console.Write(textMessage);
     string textNumber = Console.ReadLine();
@@ -6,10 +6,10 @@
     return convertNumber;
 }
 
-int GetSumNumbers (int number)
+int GetSumNumbers(int number)
 {
     int sum = 0;
-    while(number > 0)
+    while (number > 0)
     {
         sum += number % 10;
         number /= 10;
